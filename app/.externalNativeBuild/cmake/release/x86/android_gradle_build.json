@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "E:/AndroidDev/AndroidProject/EmulatorDetector/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\adt-bundle-windows-x86_64-20131030\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\AndroidDev\\AndroidProject\\EmulatorDetector\\app\\.externalNativeBuild\\cmake\\release\\x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native-lib",
+			"buildCommand" : "C:\\adt-bundle-windows-x86_64-20131030\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\AndroidDev\\AndroidProject\\EmulatorDetector\\app\\.externalNativeBuild\\cmake\\release\\x86 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=C:/adt-bundle-windows-x86_64-20131030/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/adt-bundle-windows-x86_64-20131030/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem C:\\adt-bundle-windows-x86_64-20131030\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\adt-bundle-windows-x86_64-20131030\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem C:\\adt-bundle-windows-x86_64-20131030\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/adt-bundle-windows-x86_64-20131030/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "E:/AndroidDev/AndroidProject/EmulatorDetector/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "E:/AndroidDev/AndroidProject/EmulatorDetector/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "E:/AndroidDev/AndroidProject/EmulatorDetector/app/build/intermediates/cmake/release/obj/x86/libnative-lib.so",
+			"toolchain" : "2213471897"
+		}
+	},
+	"toolchains" : 
+	{
+		"2213471897" : 
+		{
+			"cCompilerExecutable" : "C:/adt-bundle-windows-x86_64-20131030/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/adt-bundle-windows-x86_64-20131030/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
